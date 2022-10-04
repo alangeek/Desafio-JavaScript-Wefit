@@ -1,3 +1,7 @@
+window.onload = () => {
+  selectElement('.spinner-wrapper').style.display = 'none'
+}
+
 // Grab Elements
 const selectElement = selector => {
   const element = document.querySelector(selector)
